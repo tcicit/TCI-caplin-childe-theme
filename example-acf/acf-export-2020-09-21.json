@@ -1,0 +1,156 @@
+
+
+ [
+    {
+        "key": "group_5efb7d9355cca",
+        "title": "Bildattribute",
+        "fields": [
+            {
+                "key": "field_5efb7e2e9089f",
+                "label": "Technik",
+                "name": "technik",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Fotographie": "Fotographie",
+                    "Kunstdruck": "Kunstdruck",
+                    "Collage": "Collage",
+                    "Acryl": "Acryl",
+                    "Öl": "Öl",
+                    "Aquarell": "Aquarell",
+                    "Misch Technik": "Misch Technik"
+                },
+                "allow_custom": 0,
+                "default_value": [],
+                "layout": "vertical",
+                "toggle": 0,
+                "return_format": "value",
+                "save_custom": 0
+            },
+            {
+                "key": "field_5efb7ea7908a0",
+                "label": "Entstehungs Jahr",
+                "name": "entstehungs_jahr",
+                "type": "range",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 2020,
+                "min": 1800,
+                "max": 2100,
+                "step": "",
+                "prepend": 2020,
+                "append": ""
+            },
+            {
+                "key": "field_5efc29f6c9f71",
+                "label": "Künstler \/ Künstlerin",
+                "name": "kunstler",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5efc2a5c09060",
+                "label": "Lizenz",
+                "name": "lizenz",
+                "type": "text",
+                "instructions": "Hier finden sie Informationen zu den Creative Commens Lizenzen\r\nhttp:\/\/www.creativecommons.ch\/wie-funktionierts\/",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5efb7f33f4734",
+                "label": "Höhe (mm)",
+                "name": "hohe_in_millimeter",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Höhe in mm",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": ""
+            },
+            {
+                "key": "field_5efc2996033d5",
+                "label": "Breite (mm)",
+                "name": "breite_in_millimeter",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Breite in mm",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_template",
+                    "operator": "==",
+                    "value": "template-full-width-meta.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

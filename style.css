@@ -1,0 +1,52 @@
+/*
+Theme Name: TCI Chaplin Child Theme
+Theme URI: https://www.andersnoren.se/teman/chaplin-wordpress-theme/
+Description: A child theme for Chaplin with Post Templates for Metadata.
+Author: Thomas Cigolla
+Author URI: https://cigolla.ch/
+Template: chaplin
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: chaplin, metadata, child
+*/
+
+ul.tci-meta  {
+  list-style: none;
+  background-color: rgba(151, 182, 178, 0.6);
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.tci-meta li {
+  list-style-type: none;
+ }
+
+figure.featured-media:hover .tci-overlay {
+  width: 100%;
+  opacity: 1;
+}
+
+.tci-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: rgba(151, 182, 178, 0.3); */
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 1.9s ease;
+}
+
+.tci-text {
+  color: black;
+  /*font-size: 20px; */
+  position: absolute; 
+  top: 0%;
+  left: 0%;
+  /*transform: translate(-50%, 0%); */
+  white-space: nowrap;
+}
+
