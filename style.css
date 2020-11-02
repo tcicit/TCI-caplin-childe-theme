@@ -50,3 +50,20 @@ figure.featured-media:hover .tci-overlay {
   white-space: nowrap;
 }
 
+
+/* 
+Footer Color changes 
+*/
+
+footer {
+	background-color: #444444;
+}
+
+.widget{
+	color: #ffffff;
+}
+
+.widget a{
+	color: #70b5bd;
+}
+
