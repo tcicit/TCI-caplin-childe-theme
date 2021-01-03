@@ -1,4 +1,4 @@
-# Child Template for the Wordpress Theme Chaplin
+# Child Theme for the Wordpress Theme Chaplin
 
 https://www.andersnoren.se/teman/chaplin-wordpress-theme/
 
