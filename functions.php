@@ -7,7 +7,6 @@ function register_my_scripts() {
     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css'  );
 }
 
-
 // Disable rest API interface for unregistered users
 add_filter( 'rest_authentication_errors', function( $result ) { 
   if ( ! empty( $result ) ) { 
@@ -18,7 +17,6 @@ add_filter( 'rest_authentication_errors', function( $result ) {
   } 
   return $result;
 });
-
 
 
 ?>
